@@ -7,8 +7,8 @@ Menu bar utility for macOS that shows Ethernet status in real time.
 ## Install (GitHub Releases)
 
 1. Open the repository’s **[Releases](https://github.com/ithinksodigital/getwired/releases)** page on GitHub.
-2. Download the latest **`Wired.dmg`**.
-3. Open the DMG and drag **`Wired.app`** into **Applications**.
+2. Download the **ZIP** attached to the latest release.
+3. Unzip it — **`Wired.app`** is inside. Drag **`Wired.app`** into **Applications**.
 
 ## What Wired shows
 
