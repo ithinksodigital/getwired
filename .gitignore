@@ -1,0 +1,44 @@
+.DS_Store
+
+# Draft / local notes (README stays tracked)
+*.md
+!README.md
+*.markdown
+
+# Stray SVG at repo root only (app icon source is wired.icon/Assets)
+/*.svg
+
+# Swift / SwiftPM
+/.build
+/Packages
+
+# Xcode build & user state
+/.derivedData
+DerivedData/
+xcuserdata/
+
+# SwiftPM machine-specific paths
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Secrets & signing material (never push these)
+.env
+.env.*
+.netrc
+*.p8
+AuthKey_*.p8
+*.mobileprovision
+*.cer
+*.p12
+secrets.xcconfig
+Local.xcconfig
+
+# Distribution outputs
+dist/
+Wired.dmg
+Wired.xcarchive
+export/
+
+# Generated / duplicate icon assets (canonical: wired.icon)
+Resources/AppIcon.icns
+Resources/AppIcon.iconset

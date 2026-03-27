@@ -1,0 +1,57 @@
+{
+  "fill" : "system-dark",
+  "groups" : [
+    {
+      "hidden" : true,
+      "layers" : [
+
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "layers" : [
+        {
+          "blend-mode-specializations" : [
+            {
+              "appearance" : "tinted",
+              "value" : "overlay"
+            }
+          ],
+          "fill" : "none",
+          "glass" : false,
+          "hidden" : false,
+          "image-name" : "SVG Image 4.svg",
+          "name" : "Layer",
+          "position" : {
+            "scale" : 10,
+            "translation-in-points" : [
+              0,
+              1
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
