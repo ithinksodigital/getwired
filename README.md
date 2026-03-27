@@ -4,8 +4,6 @@ Menu bar utility for macOS that shows Ethernet status in real time.
 
 **Wired is installed from a ready-made build.** This repository hosts the source for transparency; **download the app** from Releases (below).
 
-The **getwired.xyz** landing page lives in a separate folder: **`../getwiredxyz`** (sibling of this repo).
-
 ## Install (GitHub Releases)
 
 1. Open the repository’s **[Releases](https://github.com/ithinksodigital/getwired/releases)** page on GitHub.
