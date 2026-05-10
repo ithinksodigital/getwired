@@ -218,7 +218,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         }
 
         menu.addItem(.separator())
-        let webItem = NSMenuItem(title: "getwired.xyz", action: #selector(openWebsite), keyEquivalent: "")
+        let webItem = NSMenuItem(title: "wired.withbyte.co", action: #selector(openWebsite), keyEquivalent: "")
         webItem.target = self
         menu.addItem(webItem)
         menu.addItem(.separator())
@@ -242,7 +242,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
     @objc
     private func openWebsite() {
-        guard let url = URL(string: "https://getwired.xyz") else { return }
+        guard let url = URL(string: "https://wired.withbyte.co") else { return }
         NSWorkspace.shared.open(url)
     }
 
