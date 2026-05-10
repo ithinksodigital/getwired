@@ -1,6 +1,6 @@
 name: Wired
 options:
-  bundleIdPrefix: xyz.getwired
+  bundleIdPrefix: co.withbyte
   deploymentTarget:
     macOS: "13.0"
   createIntermediateGroups: true
@@ -38,7 +38,7 @@ targets:
         type: file
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: xyz.getwired.app
+        PRODUCT_BUNDLE_IDENTIFIER: co.withbyte.wired
         GENERATE_INFOPLIST_FILE: NO
         INFOPLIST_FILE: Resources/Info.plist
         INFOPLIST_PREPROCESS: NO
